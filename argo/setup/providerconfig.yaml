@@ -7,5 +7,5 @@ spec:
     source: Secret
     secretRef:
       name: oci-creds
-      namespace: crossplane-system
+      namespace: ${CROSSPLANE_NAMESPACE}
       key: credentials
